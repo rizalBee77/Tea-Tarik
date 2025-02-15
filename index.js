@@ -303,7 +303,7 @@ async function processTransactions(autoRestart, rl, initialChoice = null, initia
 
     if (!autoRestart || index === 0) {
       await verifyAccountIdentity(account.address);
-      const referralCode = 'qaikt6';
+      const referralCode = '8r48ff';
       await verifyWallet(account.address, referralCode, walletNumber);
       await claimOneTimeReward(account.address);
     }
