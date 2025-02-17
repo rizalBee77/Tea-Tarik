@@ -170,7 +170,7 @@ async function processTransactions(autoRestart, rl, initialChoice = null, initia
 
   if (!choice) {
     console.log('1. Convert POL to WPOL');
-    console.log('2. Wrap WPOL to tPOL');
+    console.log('2. Wrap TUSDT to tPOL');
     console.log('3. Unwrap all tPOL to WPOL');
     console.log('4. Claim Daily Reward');
     console.log('5. Execute options 2, 3, and 4 sequentially');
